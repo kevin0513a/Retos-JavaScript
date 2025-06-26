@@ -1,3 +1,6 @@
+/*Reto 5: Contador de Vocales
+Haz una función que reciba un string y cuente cuántas vocales contiene.*/
+
 let palabra = "Hola Mundo";
 let vocales = "aeiou";
 let contadorVocales = 0;
