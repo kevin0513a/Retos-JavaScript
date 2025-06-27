@@ -1,4 +1,4 @@
-/*Reto 5: Función Recursiva
+/*Reto 3: Función Recursiva
 Cree una función Recursiva que reciba un número y los arroje de manera inversa.*/
 
 function funcionRecursiva(numero) {
