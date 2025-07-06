@@ -55,6 +55,14 @@ function mostrarEstudiantes() {
   }
 }
 
+function calcularPromedio(notas) {
+  let suma = 0;
+  for (let nota of notas) {
+    suma += nota;
+  }
+  return (suma / notas.length).toFixed(2);
+}
+
 //Creamos una funcion que nos permita pedir los datos de cada estudiante -->
 function agregarEstudiante() {
   rl.question("Nombre del estudiante: ", function (nombre) {
@@ -96,11 +104,4 @@ function agregarEstudiante() {
       });
     });
   });
-}
-function calcularPromedio(notas) {
-  let suma = 0;
-  for (let nota of notas) {
-    suma += nota;
-  }
-  return (suma / notas.length).toFixed(2);
 }
